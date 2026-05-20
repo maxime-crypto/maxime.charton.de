@@ -1,0 +1,37 @@
+*{
+    background-color: #c4d6df;
+}
+#PaulanerÜberschrift{
+    color: #9999ff;
+    font-size:100px; 
+    padding-left:350px;
+    font-family: 'comicsansms';
+}
+#PaulanerÜberschrift:hover{
+    color :#6600ff;
+}
+#PaulanerListe{
+    color:#9999ff;
+    font-family: 'comicsansms';
+}
+#PaulanerListe:hover{
+    color:#6600ff;
+}
+#LieblingsmusikTabelle{
+    color:#00004d;
+    border:2px solid #00004d;
+}
+.gif {
+  animation: pulsieren 1.5s infinite;
+}
+@keyframes pulsieren {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
