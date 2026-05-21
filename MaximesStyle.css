@@ -1,21 +1,35 @@
-*{
-    background-color: #c4d6df;
+body {
+    background: linear-gradient(#99b3ff, #c4d6df);
 }
 #PaulanerÜberschrift{
-    color: #9999ff;
+    color: #6600ff;
     font-size:100px; 
     padding-left:350px;
     font-family: 'comicsansms';
 }
-#PaulanerÜberschrift:hover{
-    color :#6600ff;
+.PaulanerNavigation{
+    color: #9999ff;
+    font-size:25px;
+    font-family: 'comicsansms';
+    padding-left:350px;
+}
+.PaulanerNavigation:hover{
+    color:#6600ff;
+}
+
+.PaulanerZwischenüberschrift{
+    color: #6600ff;
+    font-family: 'comicsansms';
+    clear:both;
+    padding-left:370px;
+    font-size:40px;
 }
 #PaulanerListe{
     color:#9999ff;
     font-family: 'comicsansms';
 }
 #PaulanerListe:hover{
-    color:#6600ff;
+    color:#7878fc;
 }
 #LieblingsmusikTabelle{
     color:#00004d;
@@ -34,4 +48,13 @@
   100% {
     transform: scale(1);
   }
+}
+.Nährwertetabelle{
+    color:#9999ff;
+    font-family: 'comicsansms';
+    padding-left:370px;
+    font-size:30px;
+}
+.Nährwertetabelle:hover{
+    color:#7878fc;
 }
